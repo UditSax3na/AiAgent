@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 ### Add Environment Variables
-```env
+```bash
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
 
@@ -62,11 +62,12 @@ pip install -r requirements.txt
 requirements.txt
 ```
 
-### requirement.txt
+### Requirements (requirement.txt)
+```
 typer
 openai
 python-dotenv
-
+```
 ---
 
 ### Author
