@@ -1,8 +1,6 @@
 from config.paths import OUTPUT_DIR
 from pathlib import Path
 
-OPENROUTER_API_KEY = "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"
-
 OPENROUTER_MODEL= "meta-llama/llama-4-scout:free"   
 OPENROUTER_URL = "https://openrouter.ai/api/v1"
 # openrouter
