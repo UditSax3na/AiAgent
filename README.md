@@ -2,6 +2,9 @@
 
 A cross-platform Python utility that detects and runs code files written in multiple programming languages, with built-in support for CLI interaction using Typer and AI integration via OpenRouter (OpenAI-compatible APIs).
 
+Note:
+The ai-agent folder contains an unfinished VS Code extension. If you're familiar with creating or using VS Code extensions, feel free to build upon it and improve it. 
+
 ---
 
 ## Features
