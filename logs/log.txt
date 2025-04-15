@@ -1,0 +1,318 @@
+[2025-04-12 21:31:21] Error: string indices must be integers, not 'str'
+[2025-04-12 21:31:21] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 49, in run
+    typer.echo(j[i])
+               ~^^^
+TypeError: string indices must be integers, not 'str'
+
+[2025-04-12 21:31:21] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 22:35:28] Error: 'code'
+[2025-04-12 22:35:28] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 60, in run
+    flag, msg = execTask(temp['code'])
+                         ~~~~^^^^^^^^
+KeyError: 'code'
+
+[2025-04-12 22:35:28] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 22:38:13] Error: 'code'
+[2025-04-12 22:38:13] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 60, in run
+    flag, msg = execTask(temp['code'])
+                         ~~~~^^^^^^^^
+KeyError: 'code'
+
+[2025-04-12 22:38:13] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 23:14:40] Error: 'code'
+[2025-04-12 23:14:40] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 60, in run
+    flag, msg = execTask(temp['code'])
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Assignment\AiAgent\core\executor.py", line 50, in execTask
+    OUTPUT_FILE.write_text(code['code'])
+                           ~~~~^^^^^^^^
+KeyError: 'code'
+
+[2025-04-12 23:14:40] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 23:16:22] Error: 'code'
+[2025-04-12 23:16:22] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 60, in run
+    flag, msg = execTask(temp['code'])
+                         ~~~~^^^^^^^^
+KeyError: 'code'
+
+[2025-04-12 23:16:22] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 23:24:29] Error: 'code'
+[2025-04-12 23:24:29] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 60, in run
+    flag, msg = execTask(temp['code'])
+                         ~~~~^^^^^^^^
+KeyError: 'code'
+
+[2025-04-12 23:24:29] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 23:33:26] Error: [WinError 2] The system cannot find the file specified
+[2025-04-12 23:33:26] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 60, in run
+    flag, msg = execTask(temp['code'])
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Assignment\AiAgent\core\executor.py", line 52, in execTask
+    runCode(OUTPUT_FILE)
+  File "D:\Assignment\AiAgent\core\executor.py", line 21, in runCode
+    subprocess.run(cmd, check=True)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+[2025-04-12 23:33:26] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 23:41:46] Error: unsupported operand type(s) for +: 'dict' and 'str'
+[2025-04-12 23:41:46] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 73, in run
+    flag, response = Ask_AI(temp['code']+f"{feedBack} and steps to resolve this")
+                            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+
+[2025-04-12 23:41:46] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-12 23:45:32] Error: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+------------------------------------------------------------
+[2025-04-12 23:57:22] Error: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+[2025-04-12 23:57:22] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\core\executor.py", line 40, in runCode
+    subprocess.run(cmd, check=True)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+
+[2025-04-12 23:57:22] File Location: D:\Assignment\AiAgent\core\executor.py
+------------------------------------------------------------
+[2025-04-13 00:15:39] Error: 'code'
+[2025-04-13 00:15:39] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 59, in run
+    flag, msg = execTask(temp['code'])
+                         ~~~~^^^^^^^^
+KeyError: 'code'
+
+[2025-04-13 00:15:39] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-14 13:03:03] Error: 'NoneType' object is not subscriptable
+[2025-04-14 13:03:03] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 74, in run
+    flag, response = Ask_AI(temp['code']['content']+f"{feedBack} and steps to resolve this")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Assignment\AiAgent\core\agent.py", line 27, in Ask_AI
+    return True, completion.choices[0].message.content
+                 ~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+[2025-04-14 13:03:03] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-14 13:13:19] Error: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+[2025-04-14 13:13:19] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\core\executor.py", line 38, in runCode
+    subprocess.run(cmd, check=True)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+
+[2025-04-14 13:13:19] File Location: D:\Assignment\AiAgent\core\executor.py
+------------------------------------------------------------
+[2025-04-14 13:15:38] Error: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+[2025-04-14 13:15:38] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\core\executor.py", line 38, in runCode
+    subprocess.run(cmd, check=True)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+
+[2025-04-14 13:15:38] File Location: D:\Assignment\AiAgent\core\executor.py
+------------------------------------------------------------
+[2025-04-14 13:16:48] Error: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+[2025-04-14 13:16:48] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\core\executor.py", line 38, in runCode
+    subprocess.run(cmd, check=True)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+
+[2025-04-14 13:16:48] File Location: D:\Assignment\AiAgent\core\executor.py
+------------------------------------------------------------
+[2025-04-14 13:42:28] Error: 'code'
+[2025-04-14 13:42:28] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 71, in run
+    Ask_toWrite(typer,temp)
+  File "D:\Assignment\AiAgent\main.py", line 24, in Ask_toWrite
+    flag, msg = execTask(temp['code'])
+                         ~~~~^^^^^^^^
+KeyError: 'code'
+
+[2025-04-14 13:42:28] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-14 18:29:18] Error: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+[2025-04-14 18:29:18] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\core\executor.py", line 38, in runCode
+    subprocess.run(cmd, check=True)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', 'D:\\Assignment\\AiAgent\\outputs\\task.py']' returned non-zero exit status 1.
+
+[2025-04-14 18:29:18] File Location: D:\Assignment\AiAgent\core\executor.py
+------------------------------------------------------------
+[2025-04-14 18:44:27] Error: 'NoneType' object is not subscriptable
+[2025-04-14 18:44:27] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 54, in run
+    flag,response = Ask_AI(task)
+                    ^^^^^^^^^^^^
+  File "D:\Assignment\AiAgent\core\agent.py", line 27, in Ask_AI
+    print(f"completion.choices[0].message.content : {completion.choices[0].message.content}")
+                                                     ~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+[2025-04-14 18:44:27] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-14 18:45:25] Error: string indices must be integers, not 'str'
+[2025-04-14 18:45:25] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 70, in run
+    typer.echo(j['content'])
+               ~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+[2025-04-14 18:45:25] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-14 18:48:00] Error: string indices must be integers, not 'str'
+[2025-04-14 18:48:00] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 70, in run
+    typer.echo(j['content'])
+               ~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+[2025-04-14 18:48:00] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-14 21:57:56] Error: 
+[2025-04-14 21:57:56] Traceback:
+Traceback (most recent call last):
+  File "d:\Assignment\AiAgent\ai-agent\ai_agent.py", line 53, in run
+    task = typer.prompt(ques)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[2025-04-14 21:57:56] File Location: d:\Assignment\AiAgent\ai-agent\ai_agent.py
+------------------------------------------------------------
+[2025-04-15 16:15:20] Error: Error code: 404 - {'error': {'message': 'Quasar and Optimus were stealth models, and revealed on April 14th as early testing versions of GPT 4.1. Check it out: https://openrouter.ai/openai/gpt-4.1', 'code': 404}, 'user_id': 'user_2vXhIfoBxvk4yKszBNuQt1s5wPp'}
+[2025-04-15 16:15:20] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 54, in run
+    flag,response = Ask_AI(task)
+                    ^^^^^^^^^^^^
+  File "D:\Assignment\AiAgent\core\agent.py", line 11, in Ask_AI
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_utils\_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\resources\chat\completions.py", line 815, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Quasar and Optimus were stealth models, and revealed on April 14th as early testing versions of GPT 4.1. Check it out: https://openrouter.ai/openai/gpt-4.1', 'code': 404}, 'user_id': 'user_2vXhIfoBxvk4yKszBNuQt1s5wPp'}
+
+[2025-04-15 16:15:20] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-15 16:17:25] Error: Error code: 404 - {'error': {'message': 'Quasar and Optimus were stealth models, and revealed on April 14th as early testing versions of GPT 4.1. Check it out: https://openrouter.ai/openai/gpt-4.1', 'code': 404}, 'user_id': 'user_2vXhIfoBxvk4yKszBNuQt1s5wPp'}
+[2025-04-15 16:17:25] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 54, in run
+    flag,response = Ask_AI(task)
+                    ^^^^^^^^^^^^
+  File "D:\Assignment\AiAgent\core\agent.py", line 11, in Ask_AI
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_utils\_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\resources\chat\completions.py", line 815, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Quasar and Optimus were stealth models, and revealed on April 14th as early testing versions of GPT 4.1. Check it out: https://openrouter.ai/openai/gpt-4.1', 'code': 404}, 'user_id': 'user_2vXhIfoBxvk4yKszBNuQt1s5wPp'}
+
+[2025-04-15 16:17:25] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-15 16:23:00] Error: 'NoneType' object is not subscriptable
+[2025-04-15 16:23:00] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 54, in run
+    flag,response = Ask_AI(task)
+                    ^^^^^^^^^^^^
+  File "D:\Assignment\AiAgent\core\agent.py", line 26, in Ask_AI
+    return True, completion.choices[0].message.content
+                 ~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+[2025-04-15 16:23:00] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
+[2025-04-15 16:43:37] Error: [WinError 233] No process is on the other end of the pipe
+[2025-04-15 16:43:37] Traceback:
+Traceback (most recent call last):
+  File "D:\Assignment\AiAgent\main.py", line 44, in run
+    task = typer.prompt(ques)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python312\site-packages\click\termui.py", line 140, in prompt_func
+    return f(" ")
+           ^^^^^^
+OSError: [WinError 233] No process is on the other end of the pipe
+
+[2025-04-15 16:43:37] File Location: D:\Assignment\AiAgent\main.py
+------------------------------------------------------------
