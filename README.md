@@ -39,3 +39,32 @@ pip install -r requirements.txt
 ```env
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
+
+---
+
+## Usage
+
+### Run a Code File
+```bash
+python main.py
+```
+
+---
+
+# Requirements
+### Install via:
+
+```bash
+pip install -r requirements.txt
+requirements.txt
+```
+
+### requirement.txt
+typer
+openai
+python-dotenv
+
+---
+
+### Author
+made by :- [UditSax3na](https://github.com/UditSax3na)
