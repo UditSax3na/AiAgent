@@ -59,7 +59,6 @@ python main.py
 
 ```bash
 pip install -r requirements.txt
-requirements.txt
 ```
 
 ### Requirements (requirement.txt)
