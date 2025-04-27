@@ -44,18 +44,8 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
 
 ---
-
-## Usage
-
-### Run a Code File
-```bash
-python main.py
-```
-
----
-
 # Requirements
-### Install via:
+### Install required Library/ Modules/Packages
 
 ```bash
 pip install -r requirements.txt
@@ -66,6 +56,13 @@ pip install -r requirements.txt
 typer
 openai
 python-dotenv
+```
+---
+## Usage
+
+### Run a Code File
+```bash
+python main.py
 ```
 ---
 
