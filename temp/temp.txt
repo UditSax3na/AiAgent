@@ -1,0 +1,74 @@
+Plan  
+---  
+1. **Define Features**: The calculator should perform basic arithmetic operations: addition, subtraction, multiplication, and division.  
+2. **User Input**: Prompt user for two numbers and the operation.  
+3. **Processing**: Execute the selected operation.  
+4. **Error Handling**: Handle invalid input (non-numeric, division by zero).  
+5. **Output**: Display the result.  
+6. **Loop**: Allow the user to perform multiple calculations or quit.
+
+Code  
+---  
+```python
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        return "Error: Division by zero is not allowed."
+    return x / y
+
+def main():
+    while True:
+        print("\nSimple Calculator")
+        print("Select operation:")
+        print("1. Addition (+)")
+        print("2. Subtraction (-)")
+        print("3. Multiplication (*)")
+        print("4. Division (/)")
+        print("5. Quit")
+        choice = input("Enter choice (1/2/3/4/5): ")
+        if choice == '5':
+            print("Goodbye!")
+            break
+        
+        if choice not in ['1', '2', '3', '4']:
+            print("Invalid input. Please select a valid option.")
+            continue
+        
+        try:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+        except ValueError:
+            print("Invalid number! Please enter numeric values.")
+            continue
+
+        if choice == '1':
+            print(f"{num1} + {num2} = {add(num1, num2)}")
+        elif choice == '2':
+            print(f"{num1} - {num2} = {subtract(num1, num2)}")
+        elif choice == '3':
+            print(f"{num1} * {num2} = {multiply(num1, num2)}")
+        elif choice == '4':
+            result = divide(num1, num2)
+            print(f"{num1} / {num2} = {result}")
+
+if __name__ == "__main__":
+    main()
+```
+
+How to Run  
+---  
+1. **Copy the code** from above into a file named, for example, `calculator.py`.
+2. **Open a terminal/command prompt** and navigate to the folder containing `calculator.py`.
+3. **Run the program** by entering:
+   ```
+   python calculator.py
+   ```
+4. **Follow on-screen prompts** to use the calculator. Select the arithmetic operation, enter numbers, view results. Select option 5 to quit.
